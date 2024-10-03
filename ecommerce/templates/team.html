@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .team-section {
+            background-color: #f0f4f8; /* Light background color */
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .team-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .member {
+            background-color: #ffffff; /* White background for team member card */
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 250px;
+            transition: transform 0.3s;
+        }
+        .member:hover {
+            transform: translateY(-5px);
+        }
+        .member img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .member h3 {
+            margin: 10px 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .member p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<section class="team-section">
+    <h2>Meet Our Team</h2>
+    <div class="team-members">
+        <div class="member">
+            <img src="https://via.placeholder.com/250" alt="Team Member 1">
+            <h3>John Doe</h3>
+            <p>CEO & Founder</p>
+        </div>
+        <div class="member">
+            <img src="https://via.placeholder.com/250" alt="Team Member 2">
+            <h3>Jane Smith</h3>
+            <p>CTO & Blockchain Expert</p>
+        </div>
+        <div class="member">
+            <img src="https://via.placeholder.com/250" alt="Team Member 3">
+            <h3>Emily Johnson</h3>
+            <p>Marketing Director</p>
+        </div>
+        <div class="member">
+            <img src="https://via.placeholder.com/250" alt="Team Member 4">
+            <h3>Michael Brown</h3>
+            <p>Lead Developer</p>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
